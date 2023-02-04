@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="A web page about IoT Applications" />
+  <meta name="author" content="ENTER YOUR NAME HERE" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IoT Applications</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="color: black;">
+  <h1 style="text-align: center;">SIT210 Developing internet-of-things 2023 </h1>
+  <!-- <img style="border:2px solid #000000; border-radius: 50%; margin: 2px; position:absolute; TOP:25px; LEFT: 1000px; WIDTH:140px; HEIGHT:150px" src="deakin.png"> -->
+
+  <h2>Activity 1(IoT applications): </h2>
+  <table style="width: 90%;height: 215px;margin-left:auto;margin-right:auto;">
+    <tr>
+      <th>What is an IoT application? </th>
+      <th>What are the main Features needed? </th>
+      <th>What are some Examples?</th>
+    </tr>
+    <tr>
+      <td> Ai and machine learning algorithms </td>
+      <td> Good quality sensors </td>
+      <td> Escalators </td>
+    </tr>
+    <tr>
+      <td> connecting sensor data to cloud </td>
+      <td> Security</td>
+      <td> Automatic taps</td>
+    </tr>
+    <tr>
+      <td> easy access with dashboard </td>
+      <td> Real time data </td>
+      <td> Automatic/smart doors </td>
+    </tr>
+    <tr>
+      <td> provide the real-time data for many different purpose </td>
+      <td> Connectivity </td>
+      <td> Alexa /Google assistant </td>
+    </tr>
+    <tr>
+      <td> analyze the data </td>
+      <td> Automation </td>
+      <td> Healthcare systems </td>
+    </tr>
+  </table>
+
+  <h2>Activity 2(Smart Building): </h2>
+
+  <table style="width: 90%;height: 215px; margin-left:auto;margin-right:auto;">
+    <tr>
+      <th>What does smart mean?</th>
+      <th>What are the main Features needed?</th>
+      <th>What are some Smart-building scenarios?</th>
+    </tr>
+    <tr>
+      <td> objects that are equipped with positioning</td>
+      <td> iot sensors</td>
+      <td> Automatic doors (easy access)</td>
+    </tr>
+    <tr>
+      <td> included with communication technologies </td>
+      <td> security and surveillance </td>
+      <td> Facial recognition (attendance of employees) </td>
+    </tr>
+    <tr>
+      <td> efficient and smart use of economic resources </td>
+      <td> energy management </td>
+      <td> Smoke detectors and automatic water sprinklers (Prevent fire breakout)</td>
+    </tr>
+    <tr>
+      <td> integrated into a network </td>
+      <td> real time alerts </td>
+      <td>Automatic lightning (To save electricity)</td>
+    </tr>
+    <tr>
+      <td> analyze the data </td>
+      <td>controlled appliances </td>
+      <td> Automatic HVAC (turns on ac only when it is required) </td>
+    </tr>
+  </table>
+
+  <h2> Activity 3(Control Interface): </h2>
+  <table style="width: 90%;height: 215px;margin-left:auto;margin-right:auto;">
+    <tr>
+      <th> What are the high-level features?</th>
+      <th>What are the parts needed?</th>
+      <th> Who are the users? </th>
+    </tr>
+    <tr>
+      <td>Facial Recognition</td>
+      <td>Camera (CMOS sensor)</td>
+      <td>Employees</td>
+    </tr>
+    <tr>
+      <td>Smoke detection </td>
+      <td>Smoke detectors</td>
+      <td>Clients</td>
+    </tr>
+    <tr>
+      <td>Artificial Intelligence </td>
+      <td>Azure App service </td>
+      <td>Recognised and unrecognised workers</td>
+    </tr>
+    <tr>
+      <td>Endpoint Management </td>
+      <td>Fingerprint sensor( Capacitive sensors)</td>
+    </tr>
+    <tr>
+      <td>Analyzing use data </td>
+      <td>Solar panels </td>
+    </tr>
+  </table>
+
+
+  <button class="accordion">About Me</button>
+  <div class="panel">
+    <p>Hello, my name is <a href="https://github.com/Mohnish0"> Mohnish Sharma(2110994774) </a> this is
+      basic webpage to introduce myself and provide a short description of units i have already completed. I am
+      currently
+      studying software engineering from Deakin University there were many interisting
+      unitd in this course like SIT-210 Embedded System development in which we were taught
+      about the basic woring of Arduio Uno and other boards like Arduino Mega. We also had
+      a unit SIT-217 Robotics in which we had to make a team project and also learned how to make working projects.
+      Now we have this unit which has started off really well and this will be really useful to use in our
+      future also. Making projects in this unit will surely help us to learn a lot and increase our
+      experience in this unit as well.
+      <img
+        style="border:2px solid #000000;  margin: 2px; position:absolute; top: 1110px; LEFT: 1050px; WIDTH:140px; HEIGHT:150px"
+        src="my_photo.jpg">
+    </p>
+  </div>
+
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+body {
+    background-image: url("https://wallpaperset.com/w/full/7/6/2/344423.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    /* width: 70%; */
+    border-collapse: separate;
+    border-spacing: 5px 5px;
+  }
+
+  td,
+  th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 8px;
+    border-left: solid black 1px;
+    border-top: solid black 1px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  th {
+    background-color: rgba(86, 255, 210, 0.4);
+    border-top: none;
+    border: solid black 1px;
+    border-radius: 6px;
+  }
+
+  td {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-top: none;
+    border: solid black 1px;
+    border-radius: 6px;
+  }
+
+  td:hover {
+    background-color: rgb(255, 255, 255);
+  }
+
+  th:hover {
+    background-color: rgb(86, 255, 210);
+  }
+
+  .container {
+    align-items: left;
+    display: flex;
+    margin-left: 100px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .box {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-align: left;
+    line-height: 1;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    max-width: 70%;
+    max-height: 25%;
+    padding: 10px 10px;
+  }
+
+  .accordion {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 70%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    margin-top: 30px;
+  }
+
+  .active,
+  .accordion:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .panel {
+    padding: 0 18px;
+    background-color: rgba(255, 255, 255, 0.3);
+    max-height: 0;
+    overflow: hidden;
+    width: 67.15%;
+    transition: max-height 0.2s ease-out;
+  }
